@@ -1,4 +1,4 @@
-<p align="center"> <img src="/_assets/logo/darhud-logo.png"></p>
+<p align="center"> <img src="/_assets/logo/darhud-logo-pink.png"></p>
 
 ## A black/pink edit of a more modern take of the default hud
 
