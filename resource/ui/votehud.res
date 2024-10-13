@@ -129,7 +129,7 @@
 			"enabled"		"1"
 			"image"			""
 			"scaleImage"	"1"	
-			"color_outline"	"52 48 45 255"
+			"color_outline"	"pblack" //"52 48 45 255"
 		}
 		
 		// divider
@@ -141,7 +141,7 @@
 			"ypos"			"50"
 			"wide"			"130"
 			"tall"			"1"
-			"fillcolor"		"128 128 128 255"
+			"fillcolor"		"255 185 215 255" //"128 128 128 255"
 			"zpos"			"0"
 		}
 		
@@ -175,7 +175,7 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"255 185 215 255" //"88 119 140 180"
 			"visible"		"1"
 		}
 		
@@ -226,7 +226,7 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"255 185 215 255" //"88 119 140 180"
 			"visible"		"1"
 		}
 		
@@ -277,7 +277,7 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"255 185 215 255" //"88 119 140 180"
 			"visible"		"0"
 		}
 		
@@ -309,7 +309,7 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"255 185 215 255" //"88 119 140 180"
 			"visible"		"0"
 		}
 		
@@ -341,7 +341,7 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"255 185 215 255" //"88 119 140 180"
 			"visible"		"0"
 		}
 		
@@ -354,7 +354,7 @@
 			"ypos"			"100"
 			"wide"			"130"
 			"tall"			"1"
-			"fillcolor"		"128 128 128 255"
+			"fillcolor"		"255 185 215 255" //"128 128 128 255"
 			"zpos"			"0"
 		}
 		
@@ -547,11 +547,11 @@
 		"PaintBackground"	"0"
 
 		"header_font"		"ItemFontNameLarge"
-		"header_fgcolor"	"Orange"
+		"header_fgcolor"	"ppink" //"Orange"
 
 		"issue_width"		"180"		
 		"issue_font"		"ItemFontNameSmall"
-		"issue_fgcolor"		"TanLight"
+		"issue_fgcolor"		"pwhite" //"TanLight"
 		"issue_fgcolor_disabled"	"TanDark"
 		
 		"parameter_width"	"200"
