@@ -1,4 +1,4 @@
-"Resource/UI/MainMenuOverride.res"
+"Resource/UI/MainMenuOverride.res" ///COLORS FROM customcolors.res WILL NOT WORK HERE (for no reason)
 {
 	MainMenuOverride
 	{
@@ -233,8 +233,7 @@
 		"tall"			"64"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../logo/new_tf2_logo"
-		//"image"			"replay/thumbnails/main_menu_logo"
+		"image"			"replay/thumbnails/main_menu_logo"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"1"
 	}	
@@ -305,7 +304,7 @@
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
 		"xpos"			"c-670"
-		"ypos"			"-48"
+		"ypos"			"-53"
 
 		"zpos"			"5"
 		"wide"			"1000"
@@ -323,8 +322,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"c-210"
-		"ypos"			"r56"
+		"xpos"			"c15"
+		"ypos"			"r55"
 		"zpos"			"7"
 		"wide"			"11"
 		"tall"			"11"
@@ -352,7 +351,8 @@
 		"paintbackground"	"1"
 		"paintborder"		"0"
 
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"235 235 235 255"  // edit this
+		"image_armedcolor"	"31 31 31 255"
 
 		"SubImage"
 		{
@@ -379,7 +379,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RankTooltipPanel"
 		"xpos"			"c-140"
-		"ypos"			"r50"
+		"ypos"			"r55"
 		"zpos"			"11"
 		"wide"			"8"
 		"tall"			"8"
@@ -540,7 +540,8 @@
 			"enabled"		"1"
 			"image"			"glyph_achievements"
 			"scaleImage"	"1"
-			"drawcolor" "210 125 33 255"
+			"drawcolor" 	"ppink"  //"210 125 33 255"
+			"armedBgColor_override" "pblack"
 		}
 
 		"Notifications_CountLabel"
@@ -559,7 +560,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"pwhite"
 		}
 
 		"Notifications_ShowButtonPanel_SB"
@@ -597,8 +598,8 @@
 			"defaultBgColor_override"	"ButtonMM"
 			"armedBgColor_override"	"ButtonArmedMM"
 
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			"image_drawcolor"	"pwhite"
+			"image_armedcolor"	"pblack"
 
 			"SubImage"
 			{
@@ -662,8 +663,8 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"PaintBackgroundType" "2"
-				"fgcolor_override"	"235 226 202 255"
-				"bgcolor_override"	"141 178 61 255"
+				"fgcolor_override"	"pblack"
+				"bgcolor_override"	"ppink" //"141 178 61 255"
 			}
 		}
 
@@ -704,8 +705,8 @@
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
 
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"200 80 60 255"
+			"image_drawcolor"	"pwhite"
+			"image_armedcolor"	"pblack" //"200 80 60 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -752,7 +753,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"LabelDark"
+			"fgcolor"		"pblack" //"LabelDark"
 			"wrap"			"1"
 		}
 
@@ -771,7 +772,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"LabelDark"
+			"fgcolor"		"pblack" //"LabelDark"
 		}
 
 		"MOTD_TitleImageBg"
@@ -827,7 +828,7 @@
 			"wide"			"280"
 			"tall"			"115"
 			"PaintBackgroundType"	"2"
-			"fgcolor"		"LabelDark"
+			"fgcolor"		"pblack" //"LabelDark"
 
 			"MOTD_TextPanel"
 			{
@@ -855,7 +856,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"fgcolor"		"LabelDark"
+					"fgcolor"		"pblack" //"LabelDark"
 					"wrap"			"1"
 				}
 			}
@@ -894,10 +895,10 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" "235 226 202 255"
-			"defaultBgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "235 226 202 255"
+			"defaultFgColor_override" "pwhite"
+			"defaultBgColor_override" "pblack"
+			"armedFgColor_override" "pwhite"
+			"depressedFgColor_override" "pwhite"
 		}
 
 		"MOTD_PrevButton"
@@ -930,8 +931,8 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
 
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			"image_drawcolor"	"ppink"
+			"image_armedcolor"	"pwhite"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -978,8 +979,8 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
 
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			"image_drawcolor"	"ppink"
+			"image_armedcolor"	"pwhite"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1047,12 +1048,12 @@
 
 			"paintbackground"	"0"
 
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "pblack" //"46 43 42 255"
+			"armedFgColor_override" "ppink" //"235 226 202 255"
+			"depressedFgColor_override" "pblack" //"46 43 42 255"
 
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
+			"image_drawcolor"	"ppink" //"117 107 94 255"
+			"image_armedcolor"	"ppink" //"200 80 60 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1084,7 +1085,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"LabelDark"
+			"fgcolor"		"ppink" //"LabelDark"
 			"wrap"			"1"
 		}
 
@@ -1097,7 +1098,7 @@
 			"wide"			"210"
 			"tall"			"135"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"117 107 94 255"
+			"fgcolor_override"	"ppink" //"117 107 94 255"
 
 			"Notifications_Control"
 			{
@@ -1237,7 +1238,8 @@
 		"border_default"    "customMainMenuButtonItems"
     	"border_armed"      "customMainMenuButtonItemsArmed"
 
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"235 235 235 255" //Original: 235 226 202
+		"image_armedcolor"  "31 31 31 255"
 
 		"SubImage"
 		{
@@ -1269,6 +1271,9 @@
 		"visible"		"1"
 		"image"			"replay/thumbnails/mainmenu/button_items"
 		"drawcolor"		"ButtonMMShadow"
+		//"paintBorder"	"1"
+		//"border_armed"    "customMainMenuButtonItems"
+    	//"border_default"      "customMainMenuButtonItemsArmed"
 		"scaleimage"	"1"
 	}
 
@@ -1313,7 +1318,8 @@
 		"border_default"    "customMainMenuButtonShop"
     	"border_armed"      "customMainMenuButtonShopArmed"
 
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"235 235 235 255"
+		"image_armedcolor"  "31 31 31 255"
 
 		"SubImage"
 		{
@@ -1386,7 +1392,8 @@
 		"border_default"    "customMainMenuButtonOptions"
     	"border_armed"      "customMainMenuButtonOptionsArmed"
 
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"235 235 235 255"
+		"image_armedcolor"  "31 31 31 255"
 
 		"SubImage"
 		{
@@ -1458,11 +1465,11 @@
 		"labelText"		"+"
 		"font"			"DefaultLarge"
 		"textAlignment"	"north-east"
-		"textinsety"	"-1"
-		"textinsetx"	"2"
+		"textinsety"	"4"
+		"textinsetx"	"4"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"default"		"1"
+		"default"		"0"
 		"Command"		"opentf2options"
 		"use_proportional_insets"	"1"
 
@@ -1479,7 +1486,8 @@
 		"border_default"    "customMainMenuButtonAdvOptions"
     	"border_armed"      "customMainMenuButtonAdvOptionsArmed"
 
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"235 235 235 255"
+		"image_armedcolor"	"31 31 31 255"
 
 		"SubImage"
 		{
@@ -1535,7 +1543,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
-		"Command"		"view_newuser_forums"
+		"Command"		"engine connect 74.91.115.12:27015" //"view_newuser_forums"
 
 		"navUp"			"VRModeButton"
 		"navLeft"		"QuitButton"
@@ -1551,7 +1559,8 @@
 		"defaultBgColor_override"	"ButtonMM"
 		"armedBgColor_override"	"ButtonArmedMM"
 
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"235 235 235 255"
+		"image_armedcolor"	"31 31 31 255"
 
 		"SubImage"
 		{
@@ -1564,8 +1573,8 @@
 			"wide"			"18"
 			"tall"			"18"
 			"visible"		"1"
-			"enabled"		"1"
-			"image"			"glyph_tutorial"
+			"enabled"		"1" 
+			"image"			"glyph_fav" //"glyph_tutorial"
 			"scaleImage"	"1"
 		}
 	}
@@ -1592,7 +1601,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
-		"Command"		"OpenAchievementsDialog"
+		"Command"		"engine connect 74.91.113.115:27015" //"OpenAchievementsDialog"
 
 		"navUp"			"VRModeButton"
 		"navLeft"		"NewUserForumsButton"
@@ -1609,7 +1618,8 @@
 		"armedBgColor_override"	"ButtonArmedMM"
 		"border_default"	"MainMenuSubButtonBorder"
 
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"235 235 235 255"
+		"image_armedcolor"	"31 31 31 255"
 
 		"SubImage"
 		{
@@ -1623,7 +1633,7 @@
 			"tall"			"17"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"glyph_achievements"
+			"image"			"glyph_fav" //"glyph_forums" "glyph_achievements"
 			"scaleImage"	"1"
 		}
 	}
@@ -1666,7 +1676,8 @@
 		"armedBgColor_override"	"ButtonArmedMM"
 		"border_default"	"MainMenuSubButtonBorder"
 
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"235 235 235 255"
+		"image_armedcolor"	"31 31 31 255"
 		
 		"SubImage"
 		{
@@ -1723,7 +1734,8 @@
 		"defaultBgColor_override"	"ButtonMM"
 		"armedBgColor_override"	"ButtonArmedMM"
 
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"235 235 235 255"
+		"image_armedcolor"	"31 31 31 255"
 		
 		"SubImage"
 		{
@@ -1741,7 +1753,7 @@
 			"scaleImage"	"1"
 		}
 	}
-	"CommentaryButton"
+	"CommentaryButton" //Actually the Achievements Button!!!!
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CommentaryButton"
@@ -1763,7 +1775,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
-		"Command"		"OpenLoadSingleplayerCommentaryDialog"
+		"Command"		"OpenAchievementsDialog" //"OpenLoadSingleplayerCommentaryDialog"
 
 		"navUp"			"VRModeButton"
 		"navLeft"		"AchievementsButton"
@@ -1780,7 +1792,8 @@
 		"armedBgColor_override"	"ButtonArmedMM"
 		"border_default"	"MainMenuSubButtonBorder"
 
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"235 235 235 255"
+		"image_armedcolor"	"31 31 31 255"
 		
 		"SubImage"
 		{
@@ -1790,11 +1803,11 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
 			"zpos"			"1"
-			"wide"			"15"
-			"tall"			"15"
+			"wide"			"17"
+			"tall"			"17"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"glyph_forums"
+			"image"			"glyph_achievements" //"glyph_forums"
 			"scaleImage"	"1"
 		}
 	}
@@ -1842,7 +1855,8 @@
 			"armedBgColor_override"	"ButtonArmedMM"
 			"border_default"	"MainMenuSubButtonBorder"
 
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"235 235 235 255"
+			"image_armedcolor"	"31 31 31 255"
 		
 			"proportionaltoparent"	"1"
 			
@@ -1922,8 +1936,8 @@
 			"armedBgColor_override"	"ButtonArmedMM"
 			"border_default"	"MainMenuSubButtonBorder"
 
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			"image_drawcolor"	"235 235 235 255"
+			"image_armedcolor"	"31 31 31 255"
 
 			"SubImage"
 			{
@@ -1990,7 +2004,8 @@
 			"armedBgColor_override"	"ButtonArmedMM"
 			"border_default"	"MainMenuSubButtonBorder"
 
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"235 235 235 255"
+			"image_armedcolor"	"31 31 31 255"
 		
 			"proportionaltoparent"	"1"
 			
@@ -2069,8 +2084,8 @@
 			"defaultBgColor_override"	"ButtonMM"
 			"armedBgColor_override"	"ButtonArmedMM"
 
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			"image_drawcolor"	"235 235 235 255"
+			"image_armedcolor"	"31 31 31 255"
 
 			"SubImage"
 			{
@@ -2178,7 +2193,7 @@
 
 				"Slider"
 				{
-					"fgcolor_override"	"TanDark"
+					"fgcolor_override"	"255 185 215 200" //Original: TanDark
 				}
 
 				"UpButton"
@@ -2457,7 +2472,8 @@
 			"defaultBgColor_override"	"ButtonMM"
 			"armedBgColor_override"	"ButtonArmedMM"
 
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"235 235 235 255"
+			"image_armedcolor"	"31 31 31 255"
 
 			"proportionaltoparent"	"1"
 
@@ -2529,7 +2545,8 @@
 			"armedBgColor_override"	"ButtonArmedMM"
 			"border_default"	"MainMenuSubButtonBorderVertical"
 
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"235 235 235 255"
+			"image_armedcolor"	"31 31 31 255"
 			"proportionaltoparent"	"1"
 
 			"SubImage"
@@ -2598,7 +2615,8 @@
 			"defaultBgColor_override"	"ButtonMM"
 			"armedBgColor_override"	"ButtonArmedMM"
 
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"235 235 235 255"
+			"image_armedcolor"	"31 31 31 255"
 			"proportionaltoparent"	"1"
 
 			"SubImage"
@@ -2681,7 +2699,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"235 235 235 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
