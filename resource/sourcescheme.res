@@ -13,6 +13,8 @@ Scheme
 	    "TFTanBright"               "236 227 203 150"
 	    "TFTanLight"                "201 188 162 150"
 	    "TFTanMedium"               "131 121 104 150"
+		"TFPink"					"255 185 215 255"
+		"TFDullPink"				"64 46 55 255"
 	    
 	    "TFTanLightBright"          "229 223 211 90"
 	    "TFTanLightDark"            "96 90 78 90"
@@ -37,7 +39,7 @@ Scheme
 		"ControlBG"			"76 88 68 255"		// background color of controls
 		"ControlDarkBG"		"90 106 80 255"		// darker background color; used for background of scrollbars
 		"WindowBG"			"62 70 55 255"		// background color of text edit panes (chat, text entries, etc.)
-		"SelectionBG"		"90 84 75 255"	// background color of any selected text or menu item
+		"SelectionBG"		"90 84 75 255"		// background color of any selected text or menu item
 		"SelectionBG2"		"69 64 57 255"		// selection background in window w/o focus
 		"ListBG"			"39 36 34 255"		// background of server browser, buddy list, etc.
 	}
@@ -47,7 +49,7 @@ Scheme
 		Border.Bright					"BackgroundTransparent" 	// the lit side of a control
 		Border.Dark						"BackgroundTransparent"		// the dark/unlit side of a control
 		Border.Selection				"BackgroundTransparent"			// the additional border color for displaying the default/selected button
-		Border.DarkSolid				"BackgroundTransparent"		// border for the console
+		Border.DarkSolid				"TFPink"		// border for the console
 
 		// Buttons and tabs
 		Button.TextColor				"ButtonLabelDefault"
@@ -60,25 +62,25 @@ Scheme
 		
 		// Tab texts
 		PropertySheet.TextColor			"ButtonLabelDefault"
-		PropertySheet.SelectedTextColor	"ButtonLabelArmed"
+		PropertySheet.SelectedTextColor	"TFPink"
 		
 		// Checkboxes
 		CheckButton.TextColor			"ButtonLabelDefault"
-		CheckButton.SelectedTextColor		"ButtonLabelArmed"
+		CheckButton.SelectedTextColor		"TFPink"
 		CheckButton.BgColor				"BackgroundTransparent"
-		CheckButton.HighlightFgColor		"ButtonLabelArmed"
+		CheckButton.HighlightFgColor		"TFPink"
 		CheckButton.ArmedBgColor		"Blank"
 		CheckButton.DepressedBgColor		"Blank"
 		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
 		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
-		CheckButton.Check				"ButtonLabelArmed"	// color of the check itself
-		CheckButton.DisabledBgColor	    "TFTanMedium"
+		CheckButton.Check				"TFPink"	// color of the check itself
+		CheckButton.DisabledBgColor	    "TFDullPink"
 
 		ToggleButton.SelectedTextColor	"ButtonLabelArmed"
 		
 		// Dropdowns
 		ComboBoxButton.ArrowColor		"ButtonLabelDefault"
-		ComboBoxButton.ArmedArrowColor	"ButtonLabelArmed"
+		ComboBoxButton.ArmedArrowColor	"TFPink"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 		
@@ -97,15 +99,15 @@ Scheme
 		FrameTitleButton.FgColor		"MainMenuLabel"
 		FrameTitleBar.Font			"DefaultLarge"
 		FrameTitleBar.TextColor			"MainMenuLabel"
-		FrameTitleBar.DisabledTextColor	"TFTanMedium"
+		FrameTitleBar.DisabledTextColor	"TFDullPink"
 		
 		// Labels
-		Label.TextDullColor				"MainMenuLabel"
+		Label.TextDullColor				"TFDullPink"
 		Label.TextColor					"MainMenuLabel"
 		Label.TextBrightColor			"MainMenuLabel"
 		Label.SelectedTextColor			"MainMenuLabel"
 		Label.BgColor					"Blank"
-		Label.DisabledFgColor1			"TFTextDull"	
+		Label.DisabledFgColor1			"TFDullPink"	
 		Label.DisabledFgColor2			"Blank"	
 		
 		// List panels
@@ -126,24 +128,24 @@ Scheme
 		Menu.DividerColor		"BackgroundDefault"
 		
 		ScrollBarButton.FgColor				"ButtonLabel"
-		ScrollBarButton.BgColor				"ButtonDefault"
+		ScrollBarButton.BgColor				"TFPink"
 		ScrollBarButton.ArmedFgColor		"ButtonArmedLabel"
 		ScrollBarButton.ArmedBgColor		"ButtonArmed"
 		ScrollBarButton.DepressedFgColor	"ButtonLabel"
 		ScrollBarButton.DepressedBgColor	"ButtonDefault"
 
 		ScrollBarSlider.BgColor				"ButtonDefault"		// this isn't really used
-		ScrollBarSlider.FgColor				"ButtonLabel"		// handle with which the slider is grabbed
+		ScrollBarSlider.FgColor				"TFPink" //"ButtonLabel"		// handle with which the slider is grabbed
 		
-		Slider.NobColor				"ButtonDefault"		
+		Slider.NobColor				"TFPink"		
 		Slider.TextColor			"ButtonLabel"
 		Slider.TrackColor			"BackgroundTransparent"
-		Slider.DisabledTextColor1	"TFTanMedium"
+		Slider.DisabledTextColor1	"TFDullPink"
         Slider.DisabledTextColor2	"Blank"
 		
 		// Text fields
 		TextEntry.TextColor			        "ButtonLabel"
-		TextEntry.DisabledTextColor	        "TFTanMedium"
+		TextEntry.DisabledTextColor	        "TFDullPink"
 		TextEntry.SelectedBgColor	        "ButtonArmed"		
 		
 		// Console background
