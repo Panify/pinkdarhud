@@ -2,7 +2,7 @@
 
 ## A black/pink edit of a more modern take of the default hud
 
-Regular in-game hud elements (such as health and ammo) are changed yet. I'll have to see if I like the way it looks if I get rid of the team color. Main menu, source scheme, and other elements have been changed. Mostly little things to replace tan with white.
+Regular in-game hud elements (such as health and ammo) are not changed yet. I'll have to see if I like the way it looks if I get rid of the team color. Main menu, source scheme, and other elements have been changed. Mostly little things to replace tan with white and accents with pink.
 
 ### Darhud Links :
 [Album](https://imgur.com/a/pTE0V2X)
