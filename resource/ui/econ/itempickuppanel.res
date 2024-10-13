@@ -62,7 +62,7 @@
 		"wide"			"36"
 		"tall"			"36"
 		"visible"		"1"
-		"bgcolor_override" "0 0 0 255"
+		"bgcolor_override" "pblack" //"0 0 0 255"
 	}
 	
 	"classimage"
@@ -96,6 +96,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor_override" "pwhite"
 	}
 	
 	"SelectedItemFoundMethodLabel"
@@ -113,7 +114,9 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"		"0"
+		"fgcolor_override" "pwhite"
+		"disabledfgcolor2_override" "ppink"
 	}
 	
 	"ItemCountLabel"
@@ -132,6 +135,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor_override" "pwhite"
 	}
 	"SelectedItemNumberLabel"
 	{
@@ -149,6 +153,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor_override" "pwhite"
 	}
 	
 	"NextButton"
@@ -269,12 +274,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override" "117 107 94 255"
-		"armedBgColor_override" "145 73 59 255"
-		"depressedBgColor_override" "117 107 94 255"
+		"defaultBgColor_override" "pblack" //"117 107 94 255"
+		"armedBgColor_override" "ppink" //"145 73 59 255"
+		"depressedBgColor_override" "pblack" //"117 107 94 255"
 			
-		"image_drawcolor"	"235 226 202 255"		
-		"image_armedcolor"	"235 226 202 255"		
+		"image_drawcolor"	"pwhite" //"235 226 202 255"		
+		"image_armedcolor"	"pblack" //"235 226 202 255"		
 		
 		"SubImage"
 		{
@@ -321,7 +326,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"pwhite"
 			"wrap"			"1"
 			"centerwrap"	"1"
 		}
@@ -342,8 +347,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
-		"bgcolor_override"	"46 43 42 255"
+		"fgcolor_override" "ppink" //"200 80 60 255"
+		"bgcolor_override"	"pblack" //"46 43 42 255"
 	}
 	
 	"ScoreEntry"
@@ -365,7 +370,7 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		"wrap"				"0"
-		"fgcolor_override"	"235 226 202 255"
+		"fgcolor_override"	"pwhite" //"235 226 202 255"
 		"bgcolor_override"	"0 0 0 255"
 		"labelText"			"Enter Score Here"
 		"textAlignment"		"center"
