@@ -1,10 +1,10 @@
 <p align="center"> <img src="/_assets/logo/darhud-logo.png"></p>
 
-## A more modern take of the default hud
+## A black/pink edit of a more modern take of the default hud
 
 HUD aimed to be more modern-looking while keeping the aspect of TF2
 
-### Links :
+### Darhud Links :
 [Album](https://imgur.com/a/pTE0V2X)
 
 [GameBanana page](https://gamebanana.com/mods/463048)
