@@ -35,15 +35,15 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "ppink" //"200 80 60 255"
 	}
 	
 	"AbandonIcon"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"AbandonIcon"
-		"xpos"		"10"
-		"ypos"		"52"
+		"xpos"		"9999" //"10"
+		"ypos"		"9999" //"52"
 		"wide"		"40"
 		"tall"		"40"
 		"image"			"pve/mvm_timeout_active_large"
@@ -58,7 +58,7 @@
 		"fieldName"		"ExplanationLabel"
 		"font"			"EconFontSmall"
 		"labelText"		"%text%"
-		"textAlignment"	"north-west"
+		"textAlignment"	"north" //"north-west"
 		"xpos"			"60"
 		"ypos"			"50"
 		"zpos"			"1"
@@ -101,18 +101,15 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"CancelButtonHintIcon"
-		"pin_to_sibling" "CancelButton"
-		"pin_corner_to_sibling" "PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" "PIN_CENTER_LEFT"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"195"
+		"ypos"			"165"
 		"zpos"			"25"
-		"wide"			"22"
-		"tall"			"22"
+		"wide"			"25"
+		"tall"			"25"
 		"visible"		"1"
 		"actionSet"		"MenuControls"
 		"actionName"	"menu_cancel"
-	}
+	}	
 
 	"ConfirmButton"
 	{
@@ -144,16 +141,13 @@
 	{
 		"ControlName"	"CSCHintIcon"
 		"fieldName"		"ConfirmButtonHintIcon"
-		"pin_to_sibling" "ConfirmButton"
-		"pin_corner_to_sibling" "PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" "PIN_CENTER_LEFT"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"15"
+		"ypos"			"165"
 		"zpos"			"25"
-		"wide"			"22"
-		"tall"			"22"
+		"wide"			"25"
+		"tall"			"25"
 		"visible"		"1"
 		"actionSet"		"MenuControls"
 		"actionName"	"menu_select"
-	}				
+	}			
 }

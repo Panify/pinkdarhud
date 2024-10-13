@@ -40,7 +40,7 @@
 		"fieldName"		"ExplanationLabel"
 		"font"			"HudFontSmallBold"
 		"labelText"		"%text%"
-		"textAlignment"	"center"
+		"textAlignment"	"north"
 		"xpos"			"40"
 		"ypos"			"40"
 		"zpos"			"1"
@@ -51,7 +51,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "ppink" //"200 80 60 255"
 	}
 		
 	"CancelButton"
