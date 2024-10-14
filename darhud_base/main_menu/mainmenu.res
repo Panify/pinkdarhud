@@ -1574,7 +1574,7 @@
 			"tall"			"18"
 			"visible"		"1"
 			"enabled"		"1" 
-			"image"			"replay/thumbnails/glyph_fav" //"glyph_tutorial"
+			"image"			"glyph_fav" //"glyph_tutorial"
 			"scaleImage"	"1"
 		}
 	}
@@ -1633,7 +1633,7 @@
 			"tall"			"17"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/glyph_fav" //"glyph_forums" "glyph_achievements"
+			"image"			"glyph_fav" //"glyph_forums" "glyph_achievements"
 			"scaleImage"	"1"
 		}
 	}
