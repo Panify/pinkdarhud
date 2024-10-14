@@ -289,7 +289,7 @@
 			"colors"
 			{
 				"1"		"CreditsGreen"
-				"pwhite" //"TanLight" 
+				"2"		"pwhite" //"TanLight"
 			}
 		}
 
